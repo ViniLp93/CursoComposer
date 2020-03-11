@@ -1,0 +1,16 @@
+{
+    "name": "vinicius/buscador-cursos",
+    "description": "Projeto que busca os cursos no site da Alura",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Vinicius Cunha",
+            "email": "vini.ffcunha@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.5",
+        "symfony/dom-crawler": "^4.2",
+        "symfony/css-selector": "^5.0"
+    }
+}
