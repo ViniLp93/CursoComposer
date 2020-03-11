@@ -24,9 +24,8 @@ class Buscador{
 
         $this->crawler->addHtmlContent($html);
 
-        $elementosCursos = $this->crawler->filter("span.card-curso__nome");
+        $elementosCursos = $this->crawler->filter("[class*=line-name]");
         $cursos = [];
-
         foreach ($elementosCursos as $elemento) {
             $cursos[] = $elemento->textContent;
         }
